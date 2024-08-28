@@ -55,9 +55,15 @@
 
 /* Estilos específicos */
 .t-eTswqK {
-    --colors-primary: #3D2264;
-    --colors-darkPrimary: #3D2264;
-    --colors-fadedPrimary: #3D2264;
+    --colors-primary: linear-gradient(45deg, #1faace, #963cbd);
+    --colors-darkPrimary: linear-gradient(45deg, #3D2264, #8A2BE2);
+    --colors-fadedPrimary: linear-gradient(45deg, #3D2264, #9370DB);
+}
+
+.element {
+    background: var(--colors-primary);
+}
+
 }
 
 .c-gMpNkY {
