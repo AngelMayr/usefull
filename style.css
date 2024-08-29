@@ -2,30 +2,30 @@
 :root,
 :host,
 .t-iiWAej {
-    --colors-black: rgba(0, 0, 0.1);
+    --colors-black: rgba(10, 19, 60);
     --colors-darkGrey: #5a5a5d;
-    --colors-blue: #2b6bc7;
-    --colors-primary: #2b6bc7;
-    --colors-darkPrimary: #1e5096;
+    --colors-blue: #0A133C;
+    --colors-primary: #3D2264;
+    --colors-darkPrimary: #1FAACE;
     --colors-fadedPrimary: #3d82e273;
     --colors-shadow1: #3d82e2;
-    --colors-shadow2: rgba(0, 0, 0, 0.02);
-    --colors-shadow3: rgba(0, 0, 0, 0.03);
-    --colors-shadow4: rgba(0, 0, 0, 0.04);
-    --colors-shadow6: rgba(0, 0, 0, 0.06);
-    --colors-shadow8: rgba(0, 0, 0, 0.08);
-    --colors-shadow12: rgba(0, 0, 0, 0.12);
-    --colors-shadow16: rgba(0, 0, 0, 0.16);
-    --colors-surfaceZ1Light: 0px 1px 3px 1px rgba(22, 26, 30, 0.01), 0px 4px 8px -6px rgba(22, 26, 30, 0.08), 0px 1px 5px -4px rgba(22, 26, 30, 0.08), 0px 0px 0px 1px rgba(22, 26, 30, 0.04), 0px 1px 0px 0px rgba(22, 26, 30, 0.02);
+    --colors-shadow2: rgba(0, 0, 0, 0.01);
+    --colors-shadow3: rgba(0, 0, 0, 0.02);
+    --colors-shadow4: rgba(0, 0, 0, 0.03);
+    --colors-shadow6: rgba(0, 0, 0, 0.04);
+    --colors-shadow8: rgba(0, 0, 0, 0.05);
+    --colors-shadow12: rgba(0, 0, 0, 0.06);
+    --colors-shadow16: rgba(0, 0, 0, 0.07);
+    --colors-surfaceZ1Light: 0px 2px 4px rgba(0, 0, 0, 0.01), 0px 6px 12px rgba(0, 0, 0, 0.01), 0px 2px 8px rgba(0, 0, 0, 0.08);
     --shadows-shadow1: rgba(0, 0, 0, 0.01);
     --shadows-shadow2: rgba(0, 0, 0, 0.02);
     --shadows-shadow3: rgba(0, 0, 0, 0.03);
     --shadows-shadow4: rgba(0, 0, 0, 0.04);
-    --shadows-shadow6: rgba(0, 0, 0, 0.06);
-    --shadows-shadow8: rgba(0, 0, 0, 0.08);
-    --shadows-shadow12: rgba(0, 0, 0, 0.12);
-    --shadows-shadow16: rgba(0, 0, 0, 0.16);
-    --shadows-surfaceZ1Light: 0px 1px 3px 1px rgba(22, 26, 30, 0.01), 0px 4px 8px -6px rgba(22, 26, 30, 0.08), 0px 1px 5px -4px rgba(22, 26, 30, 0.08), 0px 0px 0px 1px rgba(22, 26, 30, 0.04), 0px 1px 0px 0px rgba(22, 26, 30, 0.02);
+    --shadows-shadow6: rgba(0, 0, 0, 0.05);
+    --shadows-shadow8: rgba(0, 0, 0, 0.06);
+    --shadows-shadow12: rgba(0, 0, 0, 0.07);
+    --shadows-shadow16: rgba(0, 0, 0, 0.08);
+    --colors-surfaceZ1Light: 0px 2px 4px rgba(0, 0, 0, 0.01), 0px 6px 12px rgba(0, 0, 0, 0.01), 0px 2px 8px rgba(0, 0, 0, 0.08);
     --space-1: 1px;
     --space-2: 6px;
     --space-3: 12px;
@@ -56,9 +56,6 @@
 /* Estilos específicos */
 .t-eTswqK {
     --colors-primary: #3D2264;
-    --colors-darkPrimary: #3D2264;
-    --colors-fadedPrimary: #3D2264;
-
 }
 
 .c-gMpNkY {
@@ -72,6 +69,8 @@
     line-height: 20px;
     overflow-wrap: anywhere;
     position: relative;
+    box-shadow: var(--shadows-surfaceZ1Light);
+    transition: background 0.3s, box-shadow 0.3s;
 }
 
 .c-gMpNkY::after {
@@ -139,6 +138,20 @@
 
 .c-Mmsau > .c-iBVlvN button {
     margin-left: var(--space-2);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #1FAACE, #963CBD); 
+    color: white;
+    cursor: pointer;
+    font-size: var(--fontSizes-2);
+    font-weight: var(--fontWeights-2);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.c-Mmsau > .c-iBVlvN button:hover {
+    background: linear-gradient(90deg, #0A133C, #4C338E); 
+    box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
 }
 
 .c-PJLV-gJqBfM-from-user {
@@ -169,7 +182,8 @@
 
 /* Estilos generales */
 h1.vfrc-header--title.c-kfyIxT {
-    color: var(--colors-black);
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
 }
 
 a {
