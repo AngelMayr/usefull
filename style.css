@@ -190,34 +190,3 @@ a {
     color: var(--colors-blue);
 }
 
-
-
-
-/* Contenedor de la burbuja de chat */
-.c-Mmsau {
-    display: flex !important;
-    justify-content: center !important; /* Centra las burbujas */
-    margin-bottom: 10px !important; /* Espacio entre burbujas */
-}
-
-/* Estilos para las burbujas del chatbot */
-.c-Mmsau > .c-bwlaNm,
-.c-Mmsau > .c-gSBsRr {
-    align-self: flex-start !important; /* Alinea a la izquierda */
-    background-color: #f1f1f1 !important; /* Color de fondo de la burbuja del chatbot */
-    margin-right: auto !important; /* Alinea la burbuja a la izquierda */
-    max-width: 70% !important;
-    border-radius: 20px !important; /* Bordes redondeados */
-    padding: 10px !important;
-}
-
-/* Estilos para las burbujas del usuario */
-.c-Mmsau > .c-PJLV-gJqBfM-from-user {
-    align-self: flex-end !important; /* Alinea a la derecha */
-    background-color: #3D2264 !important; /* Color de fondo de la burbuja del usuario */
-    color: white !important; /* Color de texto de la burbuja del usuario */
-    margin-left: auto !important; /* Alinea la burbuja a la derecha */
-    max-width: 70% !important;
-    border-radius: 20px !important; /* Bordes redondeados */
-    padding: 10px !important;
-}
