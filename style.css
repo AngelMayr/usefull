@@ -74,7 +74,7 @@
 }
 
 .c-gMpNkY::after {
-    content: '❗';
+    content: '';
     font-size: 16px;
     color: var(--colors-warn);
     position: absolute;
