@@ -17,15 +17,6 @@
     --colors-shadow12: rgba(0, 0, 0, 0.06);
     --colors-shadow16: rgba(0, 0, 0, 0.07);
     --colors-surfaceZ1Light: 0px 2px 4px rgba(0, 0, 0, 0.01), 0px 6px 12px rgba(0, 0, 0, 0.01), 0px 2px 8px rgba(0, 0, 0, 0.08);
-    --shadows-shadow1: rgba(0, 0, 0, 0.01);
-    --shadows-shadow2: rgba(0, 0, 0, 0.02);
-    --shadows-shadow3: rgba(0, 0, 0, 0.03);
-    --shadows-shadow4: rgba(0, 0, 0, 0.04);
-    --shadows-shadow6: rgba(0, 0, 0, 0.05);
-    --shadows-shadow8: rgba(0, 0, 0, 0.06);
-    --shadows-shadow12: rgba(0, 0, 0, 0.07);
-    --shadows-shadow16: rgba(0, 0, 0, 0.08);
-    --colors-surfaceZ1Light: 0px 2px 4px rgba(0, 0, 0, 0.01), 0px 6px 12px rgba(0, 0, 0, 0.01), 0px 2px 8px rgba(0, 0, 0, 0.08);
     --space-1: 1px;
     --space-2: 6px;
     --space-3: 12px;
@@ -73,19 +64,7 @@
     transition: background 0.3s, box-shadow 0.3s;
 }
 
-.c-gMpNkY::after {
-    content: '';
-    font-size: 16px;
-    color: var(--colors-warn);
-    position: absolute;
-    right: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: help;
-}
-
 .c-gMpNkY .tooltip {
-    content: 'Albacea: Persona encargada de cumplir las disposiciones expresadas en un testamento.';
     position: absolute;
     bottom: 150%;
     left: 50%;
@@ -120,16 +99,6 @@
     color: var(--colors-darkGrey);
 }
 
-.c-Mmsau > .c-bwlaNm,
-.c-Mmsau > .c-gSBsRr {
-    position: relative;
-    right: 10px;
-    left: auto;
-    max-width: 70%;
-    align-self: flex-end;
-    margin-left: 60px;
-}
-
 .c-Mmsau > .c-iBVlvN {
     display: flex;
     justify-content: flex-end;
@@ -152,32 +121,6 @@
 .c-Mmsau > .c-iBVlvN button:hover {
     background: linear-gradient(90deg, #0A133C, #4C338E); 
     box-shadow: 0 0 20px rgba(0, 188, 212, 0.5);
-}
-
-.c-PJLV-gJqBfM-from-user {
-    position: relative;
-    right: 0;
-}
-
-.c-Mmsau > .c-bwlaNm .c-kIbiaN,
-.c-Mmsau > .c-gSBsRr .c-kIbiaN {
-    position: absolute;
-    right: 5px;
-    top: 0;
-}
-
-.c-PJLV-gJqBfM-from-user + .c-kIbiaN {
-    position: relative;
-    left: -50px;
-    top: 0;
-}
-
-.vfrc-system-response--actions.c-iBVlvN {
-    transform: scaleX(-1);
-}
-
-.vfrc-system-response--actions.c-iBVlvN button {
-    transform: scaleX(1);
 }
 
 /* Estilos generales */
