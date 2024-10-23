@@ -62,7 +62,7 @@
     transition: background-color 150ms, box-shadow 150ms; /*Transición suave*/
 }
 
-/*EStado cunado el botón esta listo*/
+/*Estado cuando el botón está listo*/
 .c-iGGXrm-giLHwd-ready-true .c-tbgzS {
     transform: scale(1.5); /* Asegúrarse de que el botón esté en su tamaño normal */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
@@ -142,7 +142,7 @@
     display: inline-block;
     box-sizing: border-box;
     padding: 10px 14px;
-    border-radius: 50px;
+    border-radius: 15px;
     font-family: var(--fonts-default);
     font-size: 15px;
     font-weight: 400;
